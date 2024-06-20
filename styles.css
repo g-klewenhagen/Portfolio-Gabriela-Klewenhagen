@@ -1,3 +1,17 @@
+:root{
+--subtle-background-color: #F1F5F9;
+--primary-body-color-1: #3A0CA3;
+--primary-body-color-2: #480CA8;
+--accent-color-1: #F72585;
+--accent-color-2: #B5179E;
+--blueish-light-1:#4CC9F0;
+--blueish-light-2: #4895EF;
+--blue-medium-1: #4361EE;
+--blue-medium-2: #3F37C9;
+--purpleish-1: #7209B7;
+--purpleish-2: #560BAD;
+    }
+    
 .merriweather-light {
     font-family: "Merriweather", serif;
     font-weight: 300;
