@@ -125,3 +125,14 @@
     padding: 40px;
 
 }
+.headshot{
+    max-width: 60%;
+    display: flex;
+}
+.logo{
+    max-width:200px;
+}
+.container-companies{
+    display: flex;
+    justify-content: space-evenly;
+}
