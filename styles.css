@@ -10,6 +10,7 @@
 --blue-medium-2: #3F37C9;
 --purpleish-1: #7209B7;
 --purpleish-2: #560BAD;
+--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     }
 
 .merriweather-light {
@@ -143,4 +144,18 @@ h1{
 p{
     color: var(--primary-body-color-1);
     font-family: "Lato", sans-serif;
+}
+h2{
+    color:var(--accent-color-2);
+    font-family:"Merriweather", serif;
+}
+.contact-me-button {
+    border-radius: 4px;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--accent-color-1);
+    box-shadow: var(--box-shadow);
+    color: white;
+    font-family: "Merriweather", serif;
 }
