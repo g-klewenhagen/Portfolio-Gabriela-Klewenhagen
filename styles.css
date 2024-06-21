@@ -11,7 +11,7 @@
 --purpleish-1: #7209B7;
 --purpleish-2: #560BAD;
     }
-    
+
 .merriweather-light {
     font-family: "Merriweather", serif;
     font-weight: 300;
@@ -117,4 +117,11 @@
     font-family: "Lato", sans-serif;
     font-weight: 900;
     font-style: italic;
+}
+
+.hero-container{
+    background-color: #F1F5F9;
+    text-align: center;
+    padding: 40px;
+
 }
