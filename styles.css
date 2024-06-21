@@ -120,7 +120,7 @@
     font-style: italic;
 }
 
-.hero-container{
+.hero{
     background-color: #F1F5F9;
     text-align: center;
     padding: 40px;
@@ -142,12 +142,13 @@ h1{
     font-size: 60px;
 }
 p{
-    color: var(--primary-body-color-1);
+    color: black;
     font-family: "Lato", sans-serif;
 }
 h2{
     color:var(--accent-color-2);
     font-family:"Merriweather", serif;
+    padding:10px;
 }
 .contact-me-button {
     border-radius: 4px;
@@ -158,4 +159,10 @@ h2{
     box-shadow: var(--box-shadow);
     color: white;
     font-family: "Merriweather", serif;
+}
+.companies{
+    padding:30px;
+}
+.coding-examples{
+    padding:30px;
 }
