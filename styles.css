@@ -131,10 +131,10 @@
     display: flex;
 }
 .logo{
-    max-width:200px;
+    max-width:150px;
 }
 .coding-example-images{
-    max-width:max-content;
+    max-width 400px;
 }
 .container-companies{
     display: flex;
@@ -152,6 +152,9 @@ h2{
     color:var(--accent-color-2);
     font-family:"Merriweather", serif;
     padding:10px;
+}
+h3{
+    color: var(--accent-color-2);
 }
 .contact-me-button {
     border-radius: 4px;
