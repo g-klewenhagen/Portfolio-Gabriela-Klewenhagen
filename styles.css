@@ -140,6 +140,9 @@
     display: flex;
     justify-content: space-evenly;
 }
+.companies-header{
+    color:white;
+}
 h1{
     color: var(--accent-color-1);
     font-size: 60px;
@@ -149,7 +152,7 @@ p{
     font-family: "Lato", sans-serif;
 }
 h2{
-    color:var(--accent-color-2);
+    color:var(--accent-color-1);
     font-family:"Merriweather", serif;
     padding:10px;
 }
@@ -168,6 +171,7 @@ h3{
 }
 .companies{
     padding:30px;
+    background-color: var(--accent-color-1);
 }
 .coding-examples{
     padding:30px;
@@ -181,12 +185,12 @@ h3{
     border: 1px solid var(--accent-color-2);
 
     @media (max-width: 576px) {
-            h1 {
+        h1 {
                 font-size: 40px;
                 text-align: center;
             }
-            h2{
+        h2{
                 font-size: 30px;
                 text-align: center;
             }
-            }
+        }
