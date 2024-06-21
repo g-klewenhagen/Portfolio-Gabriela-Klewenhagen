@@ -133,6 +133,9 @@
 .logo{
     max-width:200px;
 }
+.coding-example-images{
+    max-width:max-content;
+}
 .container-companies{
     display: flex;
     justify-content: space-evenly;
