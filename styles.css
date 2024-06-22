@@ -132,9 +132,12 @@
 }
 .headshot{
     max-width: 60%;
+    min-width: 20%;
     display: flex;
     padding: 10px;
-    align-items: center;
+    text-align: center;
+    margin: auto;
+    display:block;
 }
 .logo{
     max-width:150px;
@@ -157,9 +160,13 @@ h2{
     color:white;
     font-family:"Merriweather", serif;
     padding:10px;
+    text-align: center;
 }
 h3,h4{
     color: var(--accent-color-1);
+    font-family: "Meriweather", serif;
+    padding:10px;
+    text-align: center;
 }
 .contact-me-button {
     border-radius: 4px;
@@ -186,8 +193,14 @@ h3,h4{
     color: var(--accent-color-1);
     border: 1px solid var(--accent-color-1);
 }
-@media(max-width:480px){
+@media(max-width:576px){
+    .main-container{
+        padding:10px;
+    }
     .photo-greeting{
         flex-direction: column-reverse;
+    }
+    h1{
+        font-size: 35px;
     }
 }
