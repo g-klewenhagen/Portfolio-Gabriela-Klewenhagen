@@ -120,7 +120,7 @@
     font-style: italic;
 }
 .main-container{
-            max-width: 600px;
+            max-width: 1500px;
             margin: 0 auto;
             padding: 10px 60px;
 }
@@ -133,6 +133,8 @@
 .headshot{
     max-width: 60%;
     display: flex;
+    padding: 10px;
+    align-items: center;
 }
 .logo{
     max-width:150px;
@@ -149,7 +151,6 @@ h1{
     font-size: 60px;
 }
 p{
-    color: black;
     font-family: "Lato", sans-serif;
 }
 h2{
@@ -157,8 +158,8 @@ h2{
     font-family:"Merriweather", serif;
     padding:10px;
 }
-h3{
-    color: var(--accent-color-2);
+h3,h4{
+    color: var(--accent-color-1);
 }
 .contact-me-button {
     border-radius: 4px;
@@ -182,6 +183,11 @@ h3{
     padding: 15px 15px;
     text-decoration: none;
     text-transform: capitalize;
-    color: var(--accent-color-2);
-    border: 1px solid var(--accent-color-2);
+    color: var(--accent-color-1);
+    border: 1px solid var(--accent-color-1);
+}
+@media(max-width:480px){
+    .photo-greeting{
+        flex-direction: column-reverse;
+    }
 }
