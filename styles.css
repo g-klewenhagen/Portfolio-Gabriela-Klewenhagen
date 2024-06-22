@@ -134,14 +134,11 @@
     max-width:150px;
 }
 .coding-example-images{
-    max-width 400px;
+    max-width: 400px;
 }
 .container-companies{
     display: flex;
     justify-content: space-evenly;
-}
-.companies-header{
-    color:white;
 }
 h1{
     color: var(--accent-color-1);
@@ -152,7 +149,7 @@ p{
     font-family: "Lato", sans-serif;
 }
 h2{
-    color:var(--accent-color-1);
+    color:white;
     font-family:"Merriweather", serif;
     padding:10px;
 }
@@ -183,14 +180,4 @@ h3{
     text-transform: capitalize;
     color: var(--accent-color-2);
     border: 1px solid var(--accent-color-2);
-
-    @media (max-width: 576px) {
-        h1 {
-                font-size: 40px;
-                text-align: center;
-            }
-        h2{
-                font-size: 30px;
-                text-align: center;
-            }
-        }
+}
