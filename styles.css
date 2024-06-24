@@ -128,6 +128,7 @@
     background-color: #F1F5F9;
     text-align: center;
     padding: 40px;
+    margin-top: 60px;
 
 }
 .headshot{
@@ -145,6 +146,9 @@
 }
 .logo{
     max-width:150px;
+}
+.nav-item hover{
+    color:#F72585
 }
 .coding-example-images{
     max-width: 400px;
