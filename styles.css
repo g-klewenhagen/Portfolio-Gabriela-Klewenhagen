@@ -139,6 +139,10 @@
     margin: auto;
     display:block;
 }
+.gk-logo{
+    max-width: 80px;
+    padding-left: 20px;
+}
 .logo{
     max-width:150px;
 }
