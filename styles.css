@@ -146,6 +146,7 @@
 }
 .logo{
     max-width:150px;
+    padding:10px;
 }
 .nav-item hover{
     color:#F72585
@@ -189,7 +190,7 @@ h3,h4{
     font-family: "Merriweather", serif;
 }
 .companies{
-    padding:30px;
+    padding:5px;
     background-color: var(--accent-color-1);
 }
 .coding-examples{
