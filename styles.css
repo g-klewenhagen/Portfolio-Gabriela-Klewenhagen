@@ -179,6 +179,9 @@ h3,h4{
     padding:10px;
     text-align: center;
 }
+.card-title{
+    color:var(--accent-color-1);
+}
 .contact-me-button {
     border-radius: 4px;
     padding: 15px 15px;
@@ -200,9 +203,12 @@ h3,h4{
     border-radius: 4px;
     padding: 15px 15px;
     text-decoration: none;
-    text-transform: capitalize;
     color: var(--accent-color-1);
     border: 1px solid var(--accent-color-1);
+    display:block;
+    position:absolute;
+    bottom: 10px;
+    width:80%;
 }
 .job-title{
     text-align: left;
