@@ -237,7 +237,7 @@ h3,h4{
 }
 
 .card {
-    min-height: 300px;
+    min-height: 400px;
 }
 @media(max-width:576px){
     .main-container{
