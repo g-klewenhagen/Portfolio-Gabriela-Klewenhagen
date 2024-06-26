@@ -236,7 +236,9 @@ h3,h4{
     content: "";
 }
 
-
+.card {
+    min-height: 300px;
+}
 @media(max-width:576px){
     .main-container{
         padding:10px;
