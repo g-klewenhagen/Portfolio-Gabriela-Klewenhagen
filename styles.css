@@ -151,6 +151,9 @@
 .nav-item hover{
     color:#F72585
 }
+.active{
+    color: var(--accent-color-1)!important;
+}
 .coding-example-images{
     max-width: 400px;
 }
