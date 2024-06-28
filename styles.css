@@ -250,6 +250,14 @@ h3,h4{
 .card {
     min-height: 400px;
 }
+form-check-input:checked {
+    background-color: var(--accent-color-1)!important;
+    border-color: var(--accent-color-1)!important;
+}
+input3form4Example4.form-check-input.me-2{
+    background-color: var(--accent-color-1) !important;
+        border-color: var(--accent-color-1) !important;
+}
 @media(max-width:576px){
     .main-container{
         padding:10px;
@@ -260,4 +268,5 @@ h3,h4{
     h1{
         font-size: 35px;
     }
+    
 }
