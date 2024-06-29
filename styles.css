@@ -284,9 +284,18 @@ input3form4Example4.form-check-input.me-2{
     background-color: var(--accent-color-1) !important;
         border-color: var(--accent-color-1) !important;
 }
+  footer .social-links a {
+      margin: 0 20px;
+      color: var(--branding-color);
+      background: var(--secondary-color);
+      padding: 10px 14px;
+      border-radius: 50%;
+      font-size: 18px;
+      transition: all 100ms ease-in-out;
+  }
 @media(max-width:576px){
     .main-container{
-        padding:10px;
+        padding:0;
     }
     .photo-greeting{
         flex-direction: column-reverse;
