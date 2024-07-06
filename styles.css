@@ -147,6 +147,10 @@
 .logo{
     max-width:150px;
     padding:10px;
+    transition: all 200ms ease-in-out;
+}
+.logo hover{
+    transform: scale(1.1);
 }
 .nav-item hover{
     color:#F72585
@@ -160,6 +164,9 @@
 .container-companies{
     display: flex;
     justify-content: space-evenly;
+}
+header{
+    background-color: var(--subtle-background-color);
 }
 h1{
     color: var(--accent-color-1);
@@ -284,7 +291,7 @@ input3form4Example4.form-check-input.me-2{
     background-color: var(--accent-color-1) !important;
         border-color: var(--accent-color-1) !important;
 }
-  footer .social-links a {
+footer .social-links a {
       margin: 0 20px;
       color: var(--branding-color);
       background: var(--secondary-color);
